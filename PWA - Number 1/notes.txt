@@ -1,0 +1,5 @@
+|-----------------------------------
+| PWA NOTES 
+|-----------------------------------
+- Can use offline with the use of service workers
+
