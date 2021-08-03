@@ -3,3 +3,10 @@
 |-----------------------------------
 - Can use offline with the use of service workers
 
+
+- Basis of the web app is the Web App Manifest, which is a JSON file 
+    1. Name of the application
+    2. Theme of the application
+    3. Icon of the Application 
+
+More information can be found on the Google website: developers.google.com/web/fundamentals/web-app-manifest/
