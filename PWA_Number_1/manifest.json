@@ -1,7 +1,7 @@
 {
     "name": "Web Developers Paradise",
     "short_name": "WDP",
-    "start_url": "/index.html",
+    "start_url": "/Web-App-Projects/PWA - Number 1/index.html",
     "display": "standalone",
     "background_color": "#FFE9D2",
     "theme_color": "#FFE1C4",
