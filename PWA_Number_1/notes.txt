@@ -10,3 +10,12 @@
     3. Icon of the Application 
 
 More information can be found on the Google website: developers.google.com/web/fundamentals/web-app-manifest/
+
+|-----------------------------------
+| Service Workers
+|-----------------------------------
+- Load content offline thanks to the use of cached assets and data
+- Use background sync -> they can post content offline and it will sync back up once a connection is established 
+- Use push notifications  
+- Is a javascript file that runs on a separate thread and it listens for fetch requests, push messages, etc.-
+- Runs in the background of the application
