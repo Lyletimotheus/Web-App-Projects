@@ -19,3 +19,9 @@ More information can be found on the Google website: developers.google.com/web/f
 - Use push notifications  
 - Is a javascript file that runs on a separate thread and it listens for fetch requests, push messages, etc.-
 - Runs in the background of the application
+
+|-----------------------------------
+| Service Workers Lifecycle
+|-----------------------------------
+- The app.js registers the sw.js file 
+- Once that happens the browser will fire up the install event --> service worker becomes active --> active event --> service worker listens for events
