@@ -33,3 +33,8 @@ More information can be found on the Google website: developers.google.com/web/f
 - HTML, CSS, Images (It will look the same on all the pages)
 - You want to do it in the install event handler of the service worker since it occurs every time a change to the service worker is made and then we reload the page.
 - So only cache static data files 
+
+|-----------------------------------
+| Caching our new updated content 
+|-----------------------------------
+- Just change the staticCacheName in the sw.js file 
