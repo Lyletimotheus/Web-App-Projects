@@ -25,3 +25,11 @@ More information can be found on the Google website: developers.google.com/web/f
 |-----------------------------------
 - The app.js registers the sw.js file 
 - Once that happens the browser will fire up the install event --> service worker becomes active --> active event --> service worker listens for events
+
+|-----------------------------------
+| Pre caching assets
+|-----------------------------------
+- You need to cache the core assets of the website at the very minimum. 
+- HTML, CSS, Images (It will look the same on all the pages)
+- You want to do it in the install event handler of the service worker since it occurs every time a change to the service worker is made and then we reload the page.
+- So only cache static data files 
